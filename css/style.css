@@ -273,7 +273,6 @@ button {
 }
 footer {
   width: 100%;
-  background-color: var(--primary-color);
   height: 12px;
   margin-top: 8rem;
 }
