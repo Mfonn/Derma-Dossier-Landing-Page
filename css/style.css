@@ -15,9 +15,9 @@
 
 /* ==== CSS VARIABLES ==== */
 :root {
-  --primary-color: #335eea;
+  --primary-color: #3A1F18;
   --link-color: #506690;
-  --btn-hover-color: #2b50c7;
+  --btn-hover-color: #3A1F18;
   --lg-heading: #161c2d;
   --text-content: #869ab8;
   --fixed-header-height: 4.5rem;
@@ -195,9 +195,13 @@ button {
   font-weight: 500;
   color: #fff;
   letter-spacing: 0;
-  background-color: #e1e7fc;
-  color: #0e2a86;
+  background-color: #EBCDB2;
+  color: #391104;
   box-shadow: 0 0.5rem 1.5rem rgba(22, 28, 45, 0.1);
+}
+
+.documentation_btn a {
+color: #391104;
 }
 .documentation_btn:hover {
   background-color: #d7ddf1;
