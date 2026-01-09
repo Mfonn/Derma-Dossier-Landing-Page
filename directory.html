@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DermaHub | Dermatologist Directory</title>
+  <link rel="stylesheet" href="./css/directory.css" />
+</head>
+<body>
+
+<section class="directory">
+
+  <header class="header">
+    <h1>Verified Dermatologists</h1>
+    <p class="subtitle">
+      A credential-reviewed directory supporting ethical,
+      evidence-based dermatological care.
+    </p>
+
+    <p class="disclaimer">
+      Listings are visible upon active search. DermaHub does not offer
+      medical consultations or diagnoses.
+    </p>
+  </header>
+
+  <!-- Controls -->
+  <div class="controls">
+    <input
+      type="text"
+      id="search"
+      placeholder="Start typing a name to search…"
+    />
+
+    <select id="specialtyFilter">
+      <option value="">All Specialties</option>
+      <option value="medical">Medical Dermatology</option>
+      <option value="cosmetic">Cosmetic Dermatology</option>
+      <option value="pediatric">Pediatric Dermatology</option>
+      <option value="hair">Hair & Scalp Disorders</option>
+    </select>
+  </div>
+
+  <!-- Hint -->
+  <div id="hint" class="hint">
+    Begin by searching to explore verified dermatologists.
+  </div>
+
+  <!-- Results -->
+  <div id="results" class="results"></div>
+
+</section>
+
+<!-- Contact Modal -->
+<div id="contactModal" class="modal hidden">
+  <div class="modal-content">
+    <h3>Request Contact</h3>
+    <p>
+      Your request will be securely forwarded.
+      Contact details are not publicly displayed.
+    </p>
+    <input type="email" placeholder="Your email address" />
+    <button id="closeContact">Close</button>
+  </div>
+</div>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+  
+      <!-- Main footer content -->
+      <div class="footer-main">
+        <div class="footer-brand">
+          <h4>DermaHub</h4>
+          <p>
+            A public-health focused dermatology platform promoting
+            ethical, evidence-based skin care.
+          </p>
+        </div>
+  
+        <nav class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="directory.html">Dermatologists</a>
+          <a href="contact.html">Contact Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Use</a>
+        </nav>
+      </div>
+  
+      <!-- Bottom credit row -->
+      <div class="footer-credit">
+        <p>
+          This site was created by
+          <a
+            href="https://biocircuitlaboratories.com.ng"
+            target="_blank"
+            rel="noopener"
+          >
+            BioCircuit Laboratories
+          </a>
+        </p>
+      </div>
+  
+    </div>
+  </footer>
+  
+  
+<script src="directory.js"></script>
+</body>
+</html>
